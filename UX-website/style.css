@@ -1,0 +1,119 @@
+/* General Styling */
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif; 
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(#080808, #64697e); 
+}
+
+.nav {
+    overflow: hidden;
+    background-color: #000000;
+  }
+  
+  .nav a {
+    float: left;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .nav a.active {
+    background-color: #2196F3;
+    color: rgb(58, 7, 7);
+  }
+  
+  .nav input[type=text] {
+    float:left;
+    border: 1px solid #000000;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 16px;
+    width: 200px;
+    margin-right: 10px;
+    background-color: rgb(144, 144, 151)
+}
+   .nav a, .nav input[type=text] {
+      float: left;
+      display: block;
+      width: 100%;
+      padding: 14px;
+    }
+/* Header Styling */
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+header .AudioWave {
+    color: #64697e;
+    font-weight: 1000;
+    text-decoration: none;
+    font-size: xx-large;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none; 
+    margin-left: 20px;
+    color: rgb(144, 144, 151); 
+    font-size: x-large; 
+}
+
+nav a:hover {
+    text-decoration: none; 
+    padding: 6px 15px;
+    background-color: #7069692e; 
+}
+.content {
+    padding: 20px;
+    max-width: none;
+    margin: 100px auto;
+    background: none;
+    box-shadow: 0 0 10px rgba(170, 81, 81, 0.1);
+}
+.album-cover {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+}
+.track-list {
+    margin-top: 20px;
+}
+.track-list ul {
+    list-style: none;
+    padding: 0;
+}
+.track-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
